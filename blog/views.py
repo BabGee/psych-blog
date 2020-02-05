@@ -1,5 +1,5 @@
 from django.views import generic
-from .models import Post
+from .models import Post, Profile
 from .forms import CommentForm
 from django.shortcuts import render, get_object_or_404
 
@@ -45,3 +45,8 @@ def post_detail(request, slug):
         },
     )
 
+def about(request):
+    context = {
+        'babgee' : Profile.objects.filter(id=4).first() 
+    }
+    return render(request, 'about.html', context)
