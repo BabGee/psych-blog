@@ -2,7 +2,10 @@
 
 http://shishaa.pythonanywhere.com/ 
 
-# Psychology Blog
+
+# Screenshots
+
+![psy](https://user-images.githubusercontent.com/39271713/75101431-7c586780-55ed-11ea-8f00-431714ade996.png)
 
 **Psychology Blog** is a blog written in Python 3 and using Django framework.
 The application allows users read and comment on posts. It allows authors to add Posts in the backend. 
