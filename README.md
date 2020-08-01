@@ -1,6 +1,3 @@
-# hosted 
-
-http://shishaa.pythonanywhere.com/ 
 
 
 # Screenshots
